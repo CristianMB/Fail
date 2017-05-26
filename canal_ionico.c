@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-int Coordenadas(int i, int j);
 float CalcularDistancia(float Xi, float Xf, float Yi, float Yf);
 
 
