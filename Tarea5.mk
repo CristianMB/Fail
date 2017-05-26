@@ -9,7 +9,7 @@ Resultados_hw5.pdf : Resultados_hw5.tex $(Graficas_CI) $(Graficas_RC)
 
 $(Graficas_CI) : plots_canal_ionico.py 
 	python $< $@
-$(Graficas_RC) : circuitoRC.py CircuitoRC.txt
+$(Graficas_RC) : CircuitoRC.txt circuitoRC.py
 	python $< $@
 
 
